@@ -1,0 +1,18 @@
+<a href="{% url 'home' %}">My Best Home</a>
+<h1> Your result is</h1>
+<hr>
+<h3> Words reversal in paragraph </h3>
+{% for word in RevWords %}
+{{word}}
+{% endfor %}
+<hr>
+<h3>Whole paragraph Reversal </h3>
+{% for word in RevPara %}
+
+{{word}}
+{% endfor %}
+<hr>
+<h3>String Concatenation</h3>
+{{StrConcate}}
+<hr>
+
